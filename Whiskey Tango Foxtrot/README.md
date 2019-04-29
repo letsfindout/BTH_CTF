@@ -1,5 +1,5 @@
 
-# Whiskey Tango Foxtrot (WEB) - writeup
+# Whiskey Tango Foxtrot (WEB) - writeup **NOT COMPLETED YET**
 
 ## Challenge description
 "I let you run eval in this one. Don't tell anyone."
@@ -20,4 +20,4 @@ Strings(5) "hello" <br/>
 ### Analysing the output
 So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1.
 
-** NOT COMPLETED YET **
+
