@@ -5,7 +5,7 @@
 "I let you run eval in this one. Don't tell anyone."
 
 ## Given information
-We are given two pieces of information. One is a picture of a PHP code segment and the other one is a address and a portnumber that leads us to the code segment. 
+We are given two pieces of information. One is a picture of a PHP code segment and the other one is a address and a portnumber where we face the code segment. 
 
 ![alt text](src.png "src")
   
