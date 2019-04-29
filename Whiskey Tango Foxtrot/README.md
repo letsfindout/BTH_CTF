@@ -11,8 +11,13 @@ We are given two pieces of information. One is a picture of a PHP code segment a
   
 ## HOWTO
 ### Analysing the code
-So if we take a close look at the picture we see that there are two sections that has been censured. One is what **`$a`** has been assigned to and the other one seems to be the flag. We also see that we have a input using STDIN with fgets and that our input needs to match what's inside **`$a`**. Whatever we write does also need to match the regex of **`/^[\.\*a-zA-Z\d]+$/`** - which can be simply translated to *a string of minimum length one that only contain any of the following characters dot, asterix, a to z, A to Z and digits.* There is also the fact that if we write something that matches the **preg_match**, we will get a vardump of both our input and the correct input. So lets just start of by entering something that will match with the **preg_match**. I chose to write `hello` and got as respons
+So if we take a close look at the picture we see that there are two sections that has been censured. One is what **`$a`** has been assigned to and the other one seems to be the flag. We also see that we have a input using STDIN with fgets and that our input needs to match what's inside **`$a`**. Whatever we write does also need to match the regex of **`/^[\.\*a-zA-Z\d]+$/`** - which can be simply translated to *a string of minimum length one that only contain any of the following characters dot, asterix, a to z, A to Z and digits.* There is also the fact that if we write something that matches the **preg_match**, we will get a vardump of both our input and the correct input. So lets just start of by entering something that will match with the **preg_match**. I chose to write `hello` and got the respons
 
 hello <br/>
 Strings(13) "192.260.370.1" <br/>
 Strings(5) "hello" <br/>
+
+### Analysing the output
+So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1.
+
+** NOT COMPLETED YET **
