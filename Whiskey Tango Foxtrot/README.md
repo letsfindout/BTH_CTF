@@ -16,7 +16,7 @@ So if we take a close look at the picture we see that there are two sections tha
 ### Step 2. Analysing the output
 So lets just start of by entering something that will match with the **preg_match** so that we can se what the correct input should be. I chose to write `hello` and got the respons
 
-![alt text](img/hello.png "hello")
+![alt text](/img/hello.png "hello")
 
 So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1. Since **eval** evaluates a string as a PHP-code we know that it cannot recognize an IP-address since there is no formal datatype for it. But we do know that it recognize the primal datatypes, e.g int, float and so on. We know that floats have a dot, so for us to combine digits and dots into a string we will probably have to write floats that are concatinated somehow.
 
