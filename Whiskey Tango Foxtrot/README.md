@@ -39,7 +39,7 @@ It is apparently considered as a float. The dot can also be used with concatinat
 
 ![alt text](img/close.png "close")
 
-Almost successful! So if we think about what is happening, we realise that there are two things we need in order to be sucessful. We need one more dot and the zero in 260. So if we split the address like this 192.26, 0.36, 0.1 and concatinate them we should have the correct answer. So we end up with something like this **a\*\*a\*192.26.a\*\*a\*0.36.a\*\*a\*0.1**.
+Almost successful! So if we think about what is happening, we realise that there are two things we need in order to be sucessful. We need one more dot and the zero in 260. So if we split the address like this 192.26, 0.36, 0.1 and concatenate them we should have the correct answer. So we end up with something like this **a\*\*a\*192.26.a\*\*a\*0.36.a\*\*a\*0.1**.
 
 ![alt text](img/goodjob.png "goodjob")
 
