@@ -27,15 +27,15 @@ In order for **eval** to recognize a string there needs to be a character involv
 
 ![alt text](img/atimesa.png "atimesa")
 
-So by entering **a\*a** we get zero being an int. This means that **eval** interpertates **a** as a variable containing the value zero. What happens if we were to enter **a\*\*a**?
+So by entering **a\*a** we get zero being an int. This means that **eval** interpretates **a** as a variable containing the value zero. What happens if we were to enter **a\*\*a**?
 
 ![alt text](img/apowera.png "apowera")
 
-Although it might not be mathimatical correct to say that 0^0 = 1, it is what we get. Now let's think about what happens if we combine this with a float. Lets try and enter **a\*\*a\*192.260** and see what we get.
+Although it might not be mathematically correct to say that 0^0 = 1 - it is what we get. Now lets think about what happens if we combine this with a float. Lets try and enter **a\*\*a\*192.260** and see what we get.
 
 ![alt text](img/float.png "float")
 
-It is apperently considered as a float. The dot can also be used with concatinating strings in PHP so what happens if we combine what we have learned so far? So lets enter **a\*\*a\*192.260.a\*\*a\*360.1** and see what we get.
+It is apparently considered as a float. The dot can also be used with concatinating strings in PHP so what happens if we combine what we have learned so far? So lets enter **a\*\*a\*192.260.a\*\*a\*360.1** and see what we get.
 
 ![alt text](img/close.png "close")
 
