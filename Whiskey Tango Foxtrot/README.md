@@ -35,16 +35,11 @@ Although it might not be mathimatical correct to say that 0^0 = 1, it is what we
 
 It is apperently considered as a float. The dot can also be used with concatinating strings in PHP so what happens if we combine what we have learned so far? So lets enter **a\*\*a\*192.260.a\*\*a\*360.1** and see what we get.
 
-a\*\*a\*192.260.a\*\*a\*360.1 <br/>
-String(13) "192.260.370.1" <br/>
-String(11) "192.26370.1" <br/>
+![alt text](img/close.png "close")
 
 Almost successful! So if we think about what is happening, we realise that there are two things we need in order to be sucessful. We need one more dot and the zero in 260. So if we split the address like this 192.26, 0.36, 0.1 and concatinate them we should have the correct answer. So we end up with something like this **a\*\*a\*192.26.a\*\*a\*0.36.a\*\*a\*0.1**.
 
-a\*\*a\*192.26.a\*\*a\*0.36.a\*\*a\*0.1 <br/>
-String(13) "192.260.370.1" <br/>
-String(13) "192.260.370.1" <br/>
-Good job! Here's your flag: BTH_CTF{DON'T_REMEMBER_THE_FLAG_VALUE_SADFACE}
+![alt text](img/goodjob.png "goodjob")
 
 And there you go. Hope you liked this writeup and that it was helpful.
 
