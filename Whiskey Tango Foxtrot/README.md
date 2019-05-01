@@ -20,7 +20,7 @@ So lets just start of by entering something that will match with the **preg_matc
 
 ![alt text](img/hello..png "hello")
 
-So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1. Since **eval** evaluates a string as a PHP-code we know that it cannot recognize an IP-address since there is no formal datatype for it. But we do know that it recognize the primal datatypes, e.g int, float and so on. We know that floats have a dot, so for us to combine digits and dots into a string we will probably have to write floats that are concatinated somehow.
+So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1. Since **eval** evaluates a string as a PHP-code we know that it cannot recognize an IP-address since there is no formal datatype for it. We do know however that it recognizes the primal datatypes, e.g int, float and so on. We know that floats have a dot, so for us to combine digits and dots into a string we will probably have to write floats that are concatinated somehow.
 
 ### Step 3 Analysing the behaviour
 In order for **eval** to recognize a string there needs to be a character involved. But we don't want any a-zA-Z in our string, so we need to find a way to remove it but in the same sense keep it long enough for **eval** to recognize it.
