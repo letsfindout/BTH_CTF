@@ -24,4 +24,35 @@ So we are supposed to find a way to write a string without ", ' and so on which 
 
 #### Step 2.1. Analysing behaviour
 
+a\*a <br>
+String(13) "192.260.370.1" <br/>
+Int(1) 0 <br/>
+
+So by entering **a\*a** we get zero being an int. This means that **eval** interpertates **a** as a variable containing the value zero. What happens if we were to enter **a\*\*a**?
+
+a\*\*a <br/>
+String(13) "192.260.370.1" <br/>
+Int(1) <br/>
+
+Although it might not be mathimatical correct to say that 0^0 = 1, it is what we get. Now let's think about what happens if we combine this with a float. Lets try and enter **a\*\*a\*192.260** and see what we get.
+
+a\*\*a\*192.260 <br/>
+String(13) "192.260.370.1" <br/>
+float(192.26) <br/>
+
+It is apperently considered as a float. The dot can also be used with concatinating strings in PHP so what happens if we combine what we have learned so far? So lets enter **a\*\*a\*192.260.a\*\*a\*360.1** and see what we get.
+
+a\*\*a\*192.260.a\*\*a\*360.1 <br/>
+String(13) "192.260.370.1" <br/>
+String(11) "192.26370.1" <br/>
+
+Almost successful! So if we think about what is happening, we realise that there are two things we need in order to be sucessful. We need one more dot and the zero in 260. So if we split the address like this 192.26, 0.36, 0.1 and concatinate them we should have the correct answer. So we end up with something like this **a\*\*a\*192.26.a\*\*a\*0.36.a\*\*a\*0.1**.
+
+a\*\*a\*192.26.a\*\*a\*0.36.a\*\*a\*0.1 <br/>
+String(13) "192.260.370.1" <br/>
+String(13) "192.260.370.1" <br/>
+Good job! Here's your flag: BTH_CTF{DON'T_REMEMBER_THE_FLAG_VALUE_SADFACE}
+
+And there you go.
+
 
