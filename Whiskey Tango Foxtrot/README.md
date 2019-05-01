@@ -20,6 +20,6 @@ hello <br/>
 Strings(13) "192.260.370.1" <br/>
 Strings(5) "hello" <br/>
 
-So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1. Since **eval** evaluates a string as a PHP-code we know that it cannot recognize an IP-address since there is no formal datatype for it. But we do know that it recognize the primal datatypes, e.g int, float and so on. We know that float contains of dots,
+So we are supposed to find a way to write a string without ", ' and so on which contain 192.260.370.1. Since **eval** evaluates a string as a PHP-code we know that it cannot recognize an IP-address since there is no formal datatype for it. But we do know that it recognize the primal datatypes, e.g int, float and so on. We know that float contain one dot, so for us to combine digits and dots into a string we will probably have to write floats that are concatinated.                                                                                                                                                                                                                                                                                                                                                                                    
 
 
