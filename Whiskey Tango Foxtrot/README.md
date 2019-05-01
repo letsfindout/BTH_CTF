@@ -1,5 +1,5 @@
 
-# Whiskey Tango Foxtrot (WEB) - writeup **NOT COMPLETED YET**
+# Whiskey Tango Foxtrot (WEB) - writeup
 
 ## Challenge description
 "I let you run eval in this one. Don't tell anyone."
