@@ -16,7 +16,7 @@ So if we take a close look at the picture we see that there are two sections tha
 One thing we may not disregard as something that we can abuse is the **eval**-function. Since it evaluates something as PHP-code. If it were not for the **preg_match** we could simply enter **`$a`** and we would have found the flag. So we need to think about how PHP process the dot and asterix since they will be the key to make the **eval**-function recognize that what we wrote was a string. There is also the fact that if we write something that matches the **preg_match**, we will get a **vardump** of both our input and the correct input. 
 
 ### Step 2. Analysing the output
-So lets just start of by entering something that will match with the **preg_match** so that we can se what the correct input should be. I chose to write `hello` and got the respons
+So lets just start of by entering something that will match with the **preg_match** so that we can se what the correct input should be. I chose to write `hello` and got the response
 
 ![alt text](img/hello..png "hello")
 
